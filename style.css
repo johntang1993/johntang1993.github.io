@@ -1,0 +1,95 @@
+/*CSS Styles go here*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  font-size: 1em;
+  text-align: center;
+  background-color: #DFEAED;
+  border:40px;
+}
+nav {
+  background-color: rebeccapurple;
+  position: static;
+  width: 100%; 
+  vertical-align: middle;
+  height: 48px;
+}
+
+nav a{
+  color: black;
+  line-height: 10px;
+  margin-left: 10px
+}
+
+nav ul { 
+display: inline-block;
+float: right;
+margin-right: 50px;
+}
+
+.logo {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+nav ul li {
+  display: inline-block;
+  clear: left;
+}
+
+.mainlogo {
+  display: inline-block;
+  position: absolute;
+  clear: left;
+}
+
+.introduction {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+iframe {
+  width: 60%
+  height: 40%
+}
+
+#video {
+  display: inline-block;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+/*body{
+  font-family: Roboto;
+  font-size: 12px;
+  color: black;
+  display: 100%;
+}
+
+header {
+  background-color: #F1F1F1;
+  text-align: left;
+  width: 100%
+
+}
+
+.container {
+  max-width: auto;
+  margin: auto;
+  width: 100%;
+  padding-right:200px;
+  padding-left:200px;
+  float: left;
+}
+
+.navigation {
+  width: 100%
+}
+
+
+
+h1, h2, h3, h4, h5 {
+  color: gold;
+  font-weight: 700;
+}
+*/
